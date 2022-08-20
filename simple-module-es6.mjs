@@ -40,3 +40,8 @@ export { squared };
 //hello();
 //simple();
 //console.log(meaning);
+    
+//OR inside a CommonJS module like this:
+//async function simpleFn() {
+//const simple = await import('./simple-module-es6.mjs');
+//simple.hello();}
