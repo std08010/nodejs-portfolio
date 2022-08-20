@@ -1,5 +1,4 @@
 const fs = require("fs").promises; //require the Promises version of the fs library so that it can be used with the await keyword.
-// import { promises as fs } from "fs";
 
 (async () => {
   var dir = ".";

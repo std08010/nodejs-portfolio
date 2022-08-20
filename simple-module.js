@@ -1,3 +1,5 @@
+/* A simple CommonJS module */
+
 //this variable is private to the module because is not attached to module.exports variable
 var count = 0;
 
