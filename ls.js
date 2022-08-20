@@ -1,5 +1,5 @@
-//const fs = require('fs').promises;
-import { promises as fs } from "fs";
+const fs = require("fs").promises;
+// import { promises as fs } from "fs";
 
 async function listFiles() {
   try {
